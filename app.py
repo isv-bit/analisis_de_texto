@@ -71,12 +71,7 @@ section[data-testid="stSidebar"] {
 </style>
 """, unsafe_allow_html=True)
 
-# =====================================================
-# 🖼️ IMAGEN HEADER
-# =====================================================
-image = Image.open("analisistexto.jpg")  # puedes cambiarla
-st.image(image, width=300)
-# =====================================================
+
 # TITULO
 # =====================================================
 st.title("📝 Analizador de Texto con IA")
@@ -86,7 +81,12 @@ Analiza texto usando inteligencia artificial:
 - 📊 Frecuencia de palabras
 - 🌐 Traducción automática
 """)
-
+# =====================================================
+# 🖼️ IMAGEN 
+# =====================================================
+image = Image.open("analisistexto.jpg")  # puedes cambiarla
+st.image(image, width=300)
+# =====================================================
 # =====================================================
 # SIDEBAR
 # =====================================================
