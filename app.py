@@ -74,7 +74,7 @@ section[data-testid="stSidebar"] {
 # =====================================================
 # 🖼️ IMAGEN HEADER
 # =====================================================
-image = Image.open("controlvoz.jpg")  # puedes cambiarla
+image = Image.open("analisistexto.jpg")  # puedes cambiarla
 st.image(image, use_container_width=True)
 
 # =====================================================
